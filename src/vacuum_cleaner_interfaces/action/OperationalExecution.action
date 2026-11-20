@@ -1,0 +1,10 @@
+string mode 
+string power_mode
+---
+int64 total_area_cleaned
+int64 total_elapsed_time
+string completion_info
+---
+string current_active_room
+string battery_state
+int64 completion_percentage

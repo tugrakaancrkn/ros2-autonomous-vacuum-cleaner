@@ -1,0 +1,3 @@
+bool dustbin_fullness_status
+int64 battery_level
+uint8 hazard_sensor

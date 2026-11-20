@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="autonomous_home_vacuum_cleaner" exec="vacuum_hardware_driver" name="vacuum_hardware_driver" output="screen" />
+  <node pkg="autonomous_home_vacuum_cleaner" exec="map_loader" name="map_loader" output="screen" />
+  <node pkg="autonomous_home_vacuum_cleaner" exec="task_manager" name="task_manager" output="screen" />
+</launch>
